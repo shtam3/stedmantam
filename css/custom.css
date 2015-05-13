@@ -1,0 +1,92 @@
+/*!
+ * Custom CSS
+ * For: stedmantam.com
+ */
+
+.navbar-default {
+    padding: 25px 0;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fed136;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+
+ header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('../images/header-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+}
+
+#about {
+    padding: 100px 0;
+    background-color: white;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+#projects {
+    padding: 100px 0;
+    background-color: #f7f7f7
+}
+
+.page-header{
+    border-color: black;
+}
