@@ -3,15 +3,22 @@
  * For: stedmantam.com
  */
 
+
+ /***************************************************
+ *
+ * Navigation Bar
+ * 
+ ***************************************************/
+
 .navbar-default {
-    padding: 25px 0;
+    padding: 10px 0;
     border-color: transparent;
-    background-color: transparent;
+    background-color: #222222;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fff;
+    color: white;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -21,14 +28,69 @@
     color: #fed136;
 }
 
-.navbar-default .nav li a {
-    text-transform: uppercase;
-
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff;
+/* Toggle Icon background */
+.navbar-default .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+/* Toggle Icon line colours */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
 }
 
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+}
+
+
+
+/* Navbar background for large screens*/
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 15px 0;
+        background: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+        color: white;
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    /*Navbar background after scrolling */
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background: #222222;
+    }
+    
+}
+
+/***************************************************
+ *
+ * Header
+ * 
+ ***************************************************/
 
  header {
     text-align: center;
@@ -44,8 +106,8 @@
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 header .intro-text .intro-lead-in {
@@ -65,11 +127,17 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 300px;
-        padding-bottom: 300px;
+        padding-top: 350px;
+        padding-bottom: 350px;
     }
 
 }
+
+/***************************************************
+ *
+ * Content
+ * 
+ ***************************************************/
 
 #about {
     padding: 100px 0;
