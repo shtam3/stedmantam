@@ -11,13 +11,13 @@
  ***************************************************/
 
 .navbar-default {
-    padding: 10px 0;
+    padding: 5px 0;
     border-color: transparent;
     background-color: #222222;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: white;
 }
 
@@ -62,7 +62,7 @@
 /* Navbar background for large screens*/
 @media(min-width:768px) {
     .navbar-default {
-        padding: 15px 0;
+        padding: 25px 0;
         background: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -70,7 +70,6 @@
     }
 
     .navbar-default .navbar-brand {
-        font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
         color: white;
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -80,7 +79,7 @@
 
     /*Navbar background after scrolling */
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 1px 0;
         background: #222222;
     }
     
@@ -120,6 +119,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -140,14 +140,36 @@ header .intro-text .intro-heading {
  ***************************************************/
 
 #about {
-    padding: 100px 0;
+    padding: 75px 0;
     background-color: white;
 }
 
+h3.projects-section {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 section h2.section-heading {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding: 25px 0;
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+}
+
+section h3 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+    text-align: center;
+}
+
+section h4 {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #projects {
